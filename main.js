@@ -21,7 +21,8 @@ console.log('Sorry, you will need to enter at least one color')
 
 if(color1 !== undefined && color2 === undefined) {
     if(isValidSecondary(color1)) {    
-        console.log(colorDeconstructor(color1));  
+        console.log('When you deconstruct ' + color1);
+        console.log('You will get ' + colorDeconstructor(color1));  
     } 
     else {
         console.log("It's not a secondary color");
